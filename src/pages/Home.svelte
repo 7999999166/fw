@@ -26,7 +26,7 @@
                 <th class="cc">Quantity</th>
                 <th class="cc dd">(req.)</th>
                 <th class="cc dd">1800</th>
-                <th class="cc dd"></th>
+                
                 <th class="cc dd">945</th>
                 <th class="cc dd">Report</th>
                 
@@ -37,7 +37,7 @@
                 <th class="cc">Elements</th>
                 <th class="cc dd">%</th>
                 <th class="cc dd">K.g</th>
-                <th class="cc dd">%</th>
+                
                 <th class="cc dd">K.g</th>
                 <th class="cc">%</th>
                 
@@ -48,7 +48,7 @@
                 <td>Ni</td>
                 <td>2</td>
                 <td>2400</td>
-                <td>1</td>
+               
                 <td>120</td>
                 <td class="ee">1.4</td>
                 
@@ -57,7 +57,7 @@
                 <td>Cr</td>
                 <td>Cell 2</td>
                 <td>Cell 3</td>
-                <td>Cell 4</td>
+               
                 <td>Cell 3</td>
                 <td class="ee">Cell 3</td>
                
@@ -66,7 +66,7 @@
                 <td>Mn</td>
                 <td>Cell 2</td>
                 <td>Cell 3</td>
-                <td>Cell 4</td>
+                
                 <td>Cell 1</td>
                 <td class="ee">Cell 3</td>
                
@@ -75,7 +75,7 @@
                 <td>Cu</td>
                 <td>Cell 2</td>
                 <td>Cell 3</td>
-                <td>Cell 4</td>
+                
                 <td>Cell 5</td>
                 <td class="ee">Cell 3</td>
                
@@ -84,7 +84,7 @@
                 <td>C</td>
                 <td>Cell 2</td>
                 <td>Cell 3</td>
-                <td>Cell 4</td>
+               
                 <td>Cell 5</td>
                 <td class="ee">Cell 3</td>
                 
@@ -93,7 +93,7 @@
                 <td>Others</td>
                 <td>Cell 2</td>
                 <td>Cell 3</td>
-                <td>Cell 4</td>
+               
                 <td>Cell 5</td>
                 <td class="ee">Cell 3</td>
                
