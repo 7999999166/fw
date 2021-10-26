@@ -1,69 +1,42 @@
 <script>
-  import {onMount} from 'svelte';
-  let count = 0;
-  onMount(() => {
-    const interval = setInterval(() => count++, 1000);
-    return () => {
-      clearInterval(interval);
-    };
-  });
+    import {Route} from 'tinro'; 
+    import './nedb.min.js';
+    import './w3.css';
+    import './bootstrap.bundle.min.js';
+    import './bootstrap.min.css';
+    import Header from './components/Header.svelte';
+    import Footer from './components/Footer.svelte';
+    import Sample from './pages/Sample.svelte';
+    import Inputs from "./pages/Inputs.svelte";
+    import Home from './pages/Home.svelte';
+
+    var database1 = new Nedb({filename: 'Product.db', autoload: true });
+    var database2 = new Nedb({filename: 'Price.db', autoload: true });
+    var database3 = new Nedb({filename: 'Review.db', autoload: true });
+
 </script>
 
 <style>
-  :global(body) {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .App {
-    text-align: center;
-  }
-  .App code {
-    background: #0002;
-    padding: 4px 8px;
-    border-radius: 4px;
-  }
-  .App p {
-    margin: 0.4rem;
-  }
+.aa{
+  display: flex;
+  background-color: #A4161A;
+  height: 100vh;
+}
 
-  .App-header {
-    background-color: #f9f6f6;
-    color: #333;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-  }
-  .App-link {
-    color: #ff3e00;
-  }
-  .App-logo {
-    height: 36vmin;
-    pointer-events: none;
-    margin-bottom: 3rem;
-    animation: App-logo-pulse infinite 1.6s ease-in-out alternate;
-  }
-  @keyframes App-logo-pulse {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.06);
-    }
-  }
+
+@font-face {
+   font-family: "myFont";
+   src: url("/ZenAntiqueSoft-Regular.ttf");
+   }
+
+
 </style>
+<div class="aa">
+<Header></Header>
 
-<div class="App">
-  <header class="App-header">
-    <img src="/logo.svg" class="App-logo" alt="logo" />
-    <p>Edit <code>src/App.svelte</code> and save to reload.</p>
-    <p>Page has been open for <code>{count}</code> seconds.</p>
-    <p>
-      <a class="App-link" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">
-        Learn Svelte
-      </a>
-    </p>
-  </header>
+<Route path="/"><Home></Home></Route>
+<Route path="/inputs"><Inputs></Inputs></Route>
+<Route path="/sample"><Sample></Sample></Route>
+
+<Footer></Footer>
 </div>
