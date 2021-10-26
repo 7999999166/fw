@@ -21,7 +21,7 @@
 .ee{
     color:yellow;
     font-weight: bolder;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 </style>
