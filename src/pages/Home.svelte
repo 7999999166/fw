@@ -28,7 +28,7 @@
                 <th class="cc dd">1800</th>
                 <th class="cc dd"></th>
                 <th class="cc dd">945</th>
-                <th class="cc dd">1800</th>
+                <th class="cc dd">Report</th>
                 
             </tr>
         </thead>
@@ -39,7 +39,7 @@
                 <th class="cc dd">K.g</th>
                 <th class="cc dd">%</th>
                 <th class="cc dd">K.g</th>
-                <th class="cc">Report %</th>
+                <th class="cc">%</th>
                 
             </tr>
         </thead>
