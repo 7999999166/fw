@@ -45,10 +45,10 @@
     color: white;
 }
 .ig{
-    margin-right: 25px;
+    margin-right: 20px;
 }
 .im{
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .ik{
     margin-right: 60px;
@@ -64,9 +64,9 @@
 <div class="cc ee">
 <ul class="w3-ul">
   <li class="bb ff ii">
-      <span class="ig">Grade</span>
-      <span class="im">K.g</span>
-      <span class="ik"> Price</span> 
+      <span class="ig"><h5>Grade</h5></span>
+      <span class="im"><h5>K.g</h5></span>
+      <span class="ik"> <h5>Price</h5></span> 
       </li>
   <li class="ff gg">Empty</li>
 
