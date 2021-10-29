@@ -64,9 +64,9 @@
 <div class="cc ee">
 <ul class="w3-ul">
   <li class="bb ff ii">
-      <span class="ig"><h5>Grade</h5></span>
-      <span class="im"><h5>K.g</h5></span>
-      <span class="ik"> <h5>Price</h5></span> 
+      <span class="ig"><p>Grade</p></span>
+      <span class="im"><p>K.g</p></span>
+      <span class="ik"> <p>Price</p></span> 
       </li>
   <li class="ff gg">Empty</li>
 
