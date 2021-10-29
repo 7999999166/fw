@@ -17,11 +17,14 @@
     .ff{
         width: 100vh;
     }
+    .mm{
+        position: sticky;
+    }
    
 </style>
 <div class="table-responsive aa ff">
     <table class="table">
-        <thead>
+        <thead class="mm">
             <tr>
                 <th class="cc">Quantity</th>
                 <th class="cc dd">(req.)</th>
@@ -32,7 +35,7 @@
                 
             </tr>
         </thead>
-        <thead>
+        <thead class="mm">
             <tr>
                 <th class="cc">Elements</th>
                 <th class="cc dd">%</th>
