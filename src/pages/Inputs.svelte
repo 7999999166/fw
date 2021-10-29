@@ -67,13 +67,13 @@
       <span class="ik"> <p>Price</p></span> 
       <button type="button" class="btn btn-outline-warning">Add Inputs</button>
       </li>
-  <li class="ff gg">Empty</li>
+  <li class="ff gg">&nbsp;</li>
 
 
     <li class="ff yy bn">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
         <span><p class="ag">SS 409</p></span>
-        <span><p class="ag">1,200</p></span> 
+        <span><p class="ag">1,200.5</p></span> 
         <span><p class="ag">53.00</p></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
@@ -90,7 +90,7 @@
              <li class="ff yy">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
         <span><p class="ag">Bartan</p></span>
-        <span><p class="ag">1,400</p></span> 
+        <span><p class="ag">1,400.0</p></span> 
         <span><p class="ag">96.00</p></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
@@ -107,7 +107,7 @@
              <li class="ff yy">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
         <span><p class="ag">Ferro-Mn</p></span>
-        <span><p class="ag">100</p></span> 
+        <span><p class="ag">100.2</p></span> 
         <span><p class="ag">200.00</p></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
@@ -124,7 +124,7 @@
              <li class="ff yy">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
         <span><p class="ag">SS 409</p></span>
-        <span><p class="ag">1,200</p></span> 
+        <span><p class="ag">1,200.0</p></span> 
         <span><p class="ag">53.00</p></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
