@@ -40,7 +40,7 @@
 <ul class="w3-ul">
   <li class="bb ff">Jill</li>
   <li class="ff gg"></li>
-  <li class="ff">Adam</li>
+  <li class="ff gg">Adam</li>
    <li class="ff">Adam</li>
     <li class="ff">Adam</li>
      <li class="ff">Adam</li>
