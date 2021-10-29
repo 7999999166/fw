@@ -13,21 +13,16 @@
 .cc{
     background-color: #212529;
 }
-.dd{
-    margin-bottom: 8px;
-    margin-top: 9px;
-    margin-left: 37%;
-}
+
 .ee{
     width: 100vw;
-    margin-top: 50px;
 }
 .ff{
     color: yellow;
     background-color: #212529;
 }
 .gg{
-    margin-top: 2px;
+    margin-top: 1px;
 }
 .zz{
     margin-right: 4px;
@@ -45,13 +40,18 @@
     color: white;
 }
 .ig{
-    margin-right: 20px;
+    margin-left: 45px;
 }
 .im{
-    margin-right: 20px;
+    margin-left: 30px;
 }
 .ik{
-    margin-right: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.bn{
+    margin-top: 12px;
+    
 }
 
 
@@ -59,19 +59,18 @@
 </style>
 
 <div class="aa">
-<div class="bb"><button type="button" class="btn btn-outline-warning w3-middle dd">Add Inputs</button><br>
-</div>
 <div class="cc ee">
 <ul class="w3-ul">
   <li class="bb ff ii">
       <span class="ig"><p>Grade</p></span>
       <span class="im"><p>K.g</p></span>
       <span class="ik"> <p>Price</p></span> 
+      <button type="button" class="btn btn-outline-warning">Add Inputs</button>
       </li>
   <li class="ff gg">Empty</li>
 
 
-    <li class="ff yy">
+    <li class="ff yy bn">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
         <span><p class="ag">SS 409</p></span>
         <span><p class="ag">1,200</p></span> 
