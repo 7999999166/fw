@@ -2,7 +2,7 @@
 .aa{
     display: flex;
     flex-direction: column;
-    margin-top: 102px;
+    margin-top: 190px;
 }
 .bb{
     height: 25vh;
@@ -28,25 +28,21 @@
 .ff{
     margin-top: 10px;
 }
-.gg{
-    width: 100vw;
-   
-    
+.zz{
+    margin-right: 90px;
+    margin-left: 32px;
 }
-.mm{
-    height: 35px;
-    margin-right: 30px;
-    padding-top: 5px;
-}
-.jj{
-    margin-bottom: 70px;
+
+.ii{
+    margin-top: 50px;
+    width: 100px;
+    margin-left: 37%;
 }
 </style>
 <div class="aa">
 <div class="bb ee">
-    <h4 class="dd ff">Sample 1</h4>
+    <h4 class="dd ff zz">Sample Heat</h4>
     <input class="w3-input w3-border cc w3-round ff" type="number" value="0" >
-    <button type="button" class="btn btn-warning cc ff">Apply</button>
     <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Ni" >
     <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Cr">
     <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Mn">
@@ -54,28 +50,7 @@
     <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="C">
     <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Others">   
 </div>
-<div class="bb gg">
-    <h4 class="ff mm">Sample 2</h4>
-    <input class="w3-input w3-border cc w3-round ff" type="number" value="0">
-    <button type="button" class="btn btn-warning cc ff">Apply</button> 
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Ni">
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Cr" >
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Mn" >
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Cu" >
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="C" >
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Others">  
-</div>
-<div class="bb ee jj">
-    <h4 class="dd ff">Sample 3</h4>
-    <input class="w3-input w3-border cc w3-round ff" type="number" value="0" >
-    <button type="button" class="btn btn-warning cc ff">Apply</button>
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Ni">
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Cr">
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Mn">
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="CU">
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="C">
-    <input class="w3-input w3-border cc w3-round ff" type="number"  placeholder="Others">   
-</div>
 
+<button type="button" class="btn btn-warning ii">Apply</button>
 
 </div>
