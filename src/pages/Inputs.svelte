@@ -16,7 +16,7 @@
 .dd{
     margin-bottom: 8px;
     margin-top: 9px;
-    margin-right: 5px;
+    margin-left: 37%;
 }
 .ee{
     width: 100vw;
@@ -40,8 +40,18 @@
     display: flex;
     justify-content: center;
 }
+
+.ag{
+    color: white;
+}
 .ig{
+    margin-right: 25px;
+}
+.im{
     margin-right: 40px;
+}
+.ik{
+    margin-right: 60px;
 }
 
 
@@ -49,23 +59,23 @@
 </style>
 
 <div class="aa">
-<div class="bb"><button type="button" class="btn btn-outline-warning w3-right dd">Add Inputs</button><br>
+<div class="bb"><button type="button" class="btn btn-outline-warning w3-middle dd">Add Inputs</button><br>
 </div>
 <div class="cc ee">
 <ul class="w3-ul">
   <li class="bb ff ii">
       <span class="ig">Grade</span>
-      <span class="ig">Quantity</span>
-      <span class="ig"> Price</span> 
+      <span class="im">K.g</span>
+      <span class="ik"> Price</span> 
       </li>
   <li class="ff gg">Empty</li>
 
 
     <li class="ff yy">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
-        <span><h5>SS 409</h5></span>
-        <span><h5>1,200</h5></span> 
-        <span><h5>53.00</h5></span>   
+        <span><h5 class="ag">SS 409</h5></span>
+        <span><h5 class="ag">1,200</h5></span> 
+        <span><h5 class="ag">53.00</h5></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
              <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
@@ -80,9 +90,9 @@
 
              <li class="ff yy">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
-        <span><h5>SS 409</h5></span>
-        <span><h5>1,200</h5></span> 
-        <span><h5>53.00</h5></span>   
+        <span><h5 class="ag">Bartan</h5></span>
+        <span><h5 class="ag">1,400</h5></span> 
+        <span><h5 class="ag">96.00</h5></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
              <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
@@ -97,9 +107,9 @@
 
              <li class="ff yy">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
-        <span><h5>SS 409</h5></span>
-        <span><h5>1,200</h5></span> 
-        <span><h5>53.00</h5></span>   
+        <span><h5 class="ag">Ferro-Mn</h5></span>
+        <span><h5 class="ag">100</h5></span> 
+        <span><h5 class="ag">200.00</h5></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
              <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
@@ -114,9 +124,9 @@
 
              <li class="ff yy">
         <span class="zz"><input class="w3-check" type="checkbox" checked="checked"></span>
-        <span><h5>SS 409</h5></span>
-        <span><h5>1,200</h5></span> 
-        <span><h5>53.00</h5></span>   
+        <span><h5 class="ag">SS 409</h5></span>
+        <span><h5 class="ag">1,200</h5></span> 
+        <span><h5 class="ag">53.00</h5></span>   
         <span class="zz"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
              <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
@@ -129,8 +139,6 @@
              </svg></span> </li>
 
 
-    <li class="ff">Adam</li>
-     <li class="ff">Adam</li>
 </ul>
 </div>   
 </div>
