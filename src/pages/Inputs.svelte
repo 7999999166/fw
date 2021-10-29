@@ -27,7 +27,7 @@
     background-color: #212529;
 }
 .gg{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 
