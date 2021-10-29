@@ -27,7 +27,7 @@
     background-color: #212529;
 }
 .gg{
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 
@@ -39,7 +39,6 @@
 <div class="cc ee">
 <ul class="w3-ul">
   <li class="bb ff">Jill</li>
-  <li class="ff gg"></li>
   <li class="ff gg">Adam</li>
    <li class="ff">Adam</li>
     <li class="ff">Adam</li>
